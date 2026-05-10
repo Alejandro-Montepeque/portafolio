@@ -6,6 +6,7 @@ export const translations = {
       skills: 'Skills',
       projects: 'Proyectos',
       experience: 'Experiencia',
+      education: 'Educación',
       contact: 'Contacto',
       downloadCV: 'Descargar CV',
     },
@@ -55,14 +56,13 @@ export const translations = {
     },
     experience: {
       title: 'Experiencia',
-      kicker: 'Mi camino',
-      subtitle: 'Trayectoria profesional y formación',
+      kicker: 'Trayectoria',
+      subtitle: 'Mi recorrido profesional',
       items: [
         {
           year: 'Ago 2024 — Actual',
           role: 'Desarrollador Full Stack',
           place: 'Two-Shows Producciones',
-          type: 'work',
           bullets: [
             'Diseño y mantengo aplicaciones web end-to-end con Vue 3, TypeScript y Node.js, integradas a APIs REST y bases de datos relacionales.',
             'Modelado y optimización de bases de datos relacionales para casos de negocio del cliente.',
@@ -75,7 +75,6 @@ export const translations = {
           year: 'Ago 2023 — Ago 2024',
           role: 'Desarrollador Full Stack',
           place: 'Producciones Roma S.A. de C.V.',
-          type: 'work',
           bullets: [
             'Desarrollo fullstack end-to-end en distintos stacks (Node.js, PHP/Laravel).',
             'Diseño y modelado de bases de datos relacionales.',
@@ -88,7 +87,6 @@ export const translations = {
           year: 'Mar 2023 — Jul 2023',
           role: 'Desarrollador Front End',
           place: 'Ministerio de Agricultura y Ganadería',
-          type: 'work',
           bullets: [
             'Desarrollo de módulos frontend para sistemas internos del sector público.',
             'Levantamiento de requerimientos junto a equipo y stakeholders.',
@@ -97,18 +95,23 @@ export const translations = {
             'Trabajo bajo metodologías ágiles (Scrum) con entregas iterativas.',
           ],
         },
+      ],
+    },
+    education: {
+      title: 'Educación',
+      kicker: 'Formación',
+      subtitle: 'Estudios universitarios y bootcamps',
+      items: [
         {
           year: '2023 — Actual',
           role: 'Ingeniería en Desarrollo de Software',
           place: 'ITCA FEPADE',
-          type: 'edu',
           desc: 'Formación universitaria en ingeniería de software, enfocada en arquitectura, bases de datos, diseño de sistemas y buenas prácticas de desarrollo.',
         },
         {
           year: '2023',
           role: 'Bootcamp en Desarrollo Front-End',
           place: 'Ticongle Academy',
-          type: 'edu',
           desc: 'Formación intensiva en desarrollo frontend moderno: HTML, CSS, JavaScript, frameworks y buenas prácticas.',
         },
       ],
@@ -150,6 +153,7 @@ export const translations = {
       skills: 'Skills',
       projects: 'Projects',
       experience: 'Experience',
+      education: 'Education',
       contact: 'Contact',
       downloadCV: 'Download CV',
     },
@@ -199,14 +203,13 @@ export const translations = {
     },
     experience: {
       title: 'Experience',
-      kicker: 'My journey',
-      subtitle: 'Professional path and education',
+      kicker: 'Career',
+      subtitle: 'My professional journey',
       items: [
         {
           year: 'Aug 2024 — Present',
           role: 'Full Stack Developer',
           place: 'Two-Shows Producciones',
-          type: 'work',
           bullets: [
             'Design and maintain end-to-end web applications with Vue 3, TypeScript and Node.js, integrated with REST APIs and relational databases.',
             'Modeling and optimization of relational databases for client business cases.',
@@ -219,7 +222,6 @@ export const translations = {
           year: 'Aug 2023 — Aug 2024',
           role: 'Full Stack Developer',
           place: 'Producciones Roma S.A. de C.V.',
-          type: 'work',
           bullets: [
             'End-to-end fullstack development across different stacks (Node.js, PHP/Laravel).',
             'Design and modeling of relational databases.',
@@ -232,7 +234,6 @@ export const translations = {
           year: 'Mar 2023 — Jul 2023',
           role: 'Front End Developer',
           place: 'Ministry of Agriculture and Livestock',
-          type: 'work',
           bullets: [
             'Frontend module development for internal public sector systems.',
             'Requirements gathering with team and stakeholders.',
@@ -241,18 +242,23 @@ export const translations = {
             'Work under agile methodologies (Scrum) with iterative deliveries.',
           ],
         },
+      ],
+    },
+    education: {
+      title: 'Education',
+      kicker: 'Studies',
+      subtitle: 'University and bootcamps',
+      items: [
         {
           year: '2023 — Present',
           role: 'Software Engineering',
           place: 'ITCA FEPADE',
-          type: 'edu',
           desc: 'University degree in software engineering, focused on architecture, databases, system design and development best practices.',
         },
         {
           year: '2023',
           role: 'Front-End Development Bootcamp',
           place: 'Ticongle Academy',
-          type: 'edu',
           desc: 'Intensive training in modern frontend development: HTML, CSS, JavaScript, frameworks and best practices.',
         },
       ],

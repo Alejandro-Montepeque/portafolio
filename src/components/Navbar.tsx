@@ -6,7 +6,15 @@ import { contact } from '../data/contact'
 import { HiMenu, HiX } from 'react-icons/hi'
 import { FiDownload } from 'react-icons/fi'
 
-const sectionIds = ['home', 'about', 'skills', 'projects', 'experience', 'contact']
+const sectionIds = [
+  'home',
+  'about',
+  'skills',
+  'projects',
+  'experience',
+  'education',
+  'contact',
+]
 
 export default function Navbar() {
   const { t } = useI18n()
@@ -37,6 +45,7 @@ export default function Navbar() {
     { id: 'skills', label: t.nav.skills },
     { id: 'projects', label: t.nav.projects },
     { id: 'experience', label: t.nav.experience },
+    { id: 'education', label: t.nav.education },
     { id: 'contact', label: t.nav.contact },
   ]
 
