@@ -5,16 +5,20 @@ export type Project = {
   tech: string[]
   github: string
   demo: string
+  live?: boolean
+  image?: string
 }
 
 export const projects: Project[] = [
   {
     id: 1,
-    title: 'AI Agent Platform',
-    desc: 'Plataforma de agentes de IA con Python, integración con LLMs y workflows automatizados.',
-    tech: ['Python', 'LangChain', 'OpenAI', 'FastAPI', 'Docker'],
-    github: '',
-    demo: '',
+    title: 'JobMatcher AI',
+    desc: 'Agente de IA que analiza un CV en PDF contra una oferta laboral y devuelve un score de coincidencia, brechas específicas y sugerencias accionables para mejorar el CV. Monorepo con backend en FastAPI + Google ADK + Gemini y frontend en Vue 3, base de datos en Neon, desplegado en Cloud Run y Vercel.',
+    tech: ['Python', 'FastAPI', 'Gemini', 'Vue 3', 'PostgreSQL', 'Cloud Run'],
+    github: 'https://github.com/Alejandro-Montepeque/job-matcher-agent',
+    demo: 'https://job-matcher-agent.vercel.app',
+    live: true,
+    image: '/projects/jobmatcher.png',
   },
   {
     id: 2,

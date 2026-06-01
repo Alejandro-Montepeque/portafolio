@@ -14,7 +14,8 @@ export const translations = {
       greeting: 'Hola, soy',
       name: 'Alejandro Montepeque',
       role: 'Ingeniero en Desarrollo de Software · Full Stack',
-      tagline: 'Más de 3 años construyendo aplicaciones web escalables y mantenibles. Trabajo principalmente con Vue, TypeScript y Node.js, manejando estado con Pinia y autenticación con JWT.',
+      tagline:
+        'Más de 3 años construyendo aplicaciones web escalables y mantenibles. Trabajo principalmente con Vue, TypeScript y Node.js, manejando estado con Pinia y autenticación con JWT.',
       ctaPrimary: 'Ver mis proyectos',
       ctaSecondary: 'Contáctame',
       scrollHint: 'Desplaza para ver más',
@@ -49,8 +50,10 @@ export const translations = {
       kicker: 'Mi trabajo',
       subtitle: 'Una selección de proyectos que estoy preparando para mostrar',
       comingSoon: 'Próximamente',
+      live: 'En vivo',
       placeholderTitle: 'Proyecto',
-      placeholderDesc: 'Pronto agregaré los detalles de este proyecto, incluyendo problema resuelto, arquitectura y enlaces a código y demo.',
+      placeholderDesc:
+        'Pronto agregaré los detalles de este proyecto, incluyendo problema resuelto, arquitectura y enlaces a código y demo.',
       viewCode: 'Ver código',
       viewDemo: 'Ver demo',
     },
@@ -161,7 +164,8 @@ export const translations = {
       greeting: "Hi, I'm",
       name: 'Alejandro Montepeque',
       role: 'Software Engineer · Full Stack',
-      tagline: '3+ years building scalable, maintainable web apps. I work primarily with Vue, TypeScript and Node.js, managing state with Pinia and authentication with JWT.',
+      tagline:
+        '3+ years building scalable, maintainable web apps. I work primarily with Vue, TypeScript and Node.js, managing state with Pinia and authentication with JWT.',
       ctaPrimary: 'See my projects',
       ctaSecondary: 'Contact me',
       scrollHint: 'Scroll for more',
@@ -196,8 +200,10 @@ export const translations = {
       kicker: 'My work',
       subtitle: 'A selection of projects I am preparing to showcase',
       comingSoon: 'Coming soon',
+      live: 'Live',
       placeholderTitle: 'Project',
-      placeholderDesc: 'I will soon add details about this project, including problem solved, architecture and links to code and demo.',
+      placeholderDesc:
+        'I will soon add details about this project, including problem solved, architecture and links to code and demo.',
       viewCode: 'View code',
       viewDemo: 'Live demo',
     },
