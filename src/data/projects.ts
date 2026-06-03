@@ -38,10 +38,12 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    title: 'Microservices in C#/.NET',
-    desc: 'Conjunto de microservicios en .NET con comunicación asíncrona, contenedores Docker y despliegue automatizado.',
-    tech: ['C#', '.NET', 'Docker', 'RabbitMQ'],
-    github: '',
-    demo: '',
+    title: 'Gestor Financiero',
+    desc: 'Aplicación web de gestión de finanzas personales con autenticación de usuarios, registro de transacciones por categorías y visualización de reportes. Construida con ASP.NET Core, Entity Framework Core y SQL Server. Desarrollada como proyecto académico de equipo, con implementación técnica completa a mi cargo.',
+    tech: ['C#', 'ASP.NET Core', 'Entity Framework', 'SQL Server', 'Razor Pages'],
+    github: 'https://github.com/DanielGerardoHC/gestorFinanciero',
+    demo: 'http://gestor-financiero.runasp.net',
+    live: true,
+    image: '/projects/gestorFinanciero.png',
   },
 ]
