@@ -63,7 +63,18 @@ export const translations = {
       subtitle: 'Mi recorrido profesional',
       items: [
         {
-          year: 'Ago 2024 — Actual',
+          year: 'Jun 2026 — Actual',
+          role: 'Desarrollador Full Stack',
+          place: 'ManpowerGroup — Sector Educación',
+          bullets: [
+            'Desarrollo Full Stack de aplicaciones web con Vue 3, TypeScript y Node.js en iniciativas digitales del sector educativo.',
+            'Diseño y consumo de APIs REST, modelado y optimización de bases de datos relacionales.',
+            'Integración con servicios externos y aseguramiento de calidad con pruebas E2E automatizadas en Playwright.',
+            'Desarrollo de agentes de IA y diseño de skills especializadas para casos de uso de ciberseguridad.',
+          ],
+        },
+        {
+          year: 'Ago 2024 — May 2026',
           role: 'Desarrollador Full Stack',
           place: 'Two-Shows Producciones',
           bullets: [
@@ -213,7 +224,18 @@ export const translations = {
       subtitle: 'My professional journey',
       items: [
         {
-          year: 'Aug 2024 — Present',
+          year: 'Jun 2026 — Present',
+          role: 'Full Stack Developer',
+          place: 'ManpowerGroup — Education Sector',
+          bullets: [
+            'Full Stack development of web applications with Vue 3, TypeScript and Node.js for digital initiatives in the education sector.',
+            'Design and consumption of REST APIs, modeling and optimization of relational databases.',
+            'Integration with external services and quality assurance via automated E2E tests with Playwright.',
+            'Development of AI agents and design of specialized skills for cybersecurity use cases.',
+          ],
+        },
+        {
+          year: 'Aug 2024 — May 2026',
           role: 'Full Stack Developer',
           place: 'Two-Shows Producciones',
           bullets: [
