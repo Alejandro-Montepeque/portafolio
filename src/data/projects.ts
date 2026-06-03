@@ -22,11 +22,13 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    title: 'Fullstack SaaS App',
-    desc: 'Aplicación SaaS con backend en NestJS y frontend en React + TypeScript, desplegada en GCP.',
-    tech: ['NestJS', 'React', 'TypeScript', 'PostgreSQL', 'GCP'],
-    github: '',
-    demo: '',
+    title: 'kanban-live',
+    desc: 'Kanban colaborativo con sincronización en tiempo real. Múltiples usuarios editan el mismo board y ven los cambios instantáneamente vía WebSockets — drag & drop accesible, presence indicators con avatars, invitaciones por link. Backend en NestJS + Prisma + Socket.IO con JWT y refresh token rotation, frontend en React + TypeScript con dnd-kit. Desplegado en Cloud Run + Vercel + Neon.',
+    tech: ['NestJS', 'React', 'TypeScript', 'Socket.IO', 'PostgreSQL', 'Cloud Run'],
+    github: 'https://github.com/Alejandro-Montepeque/kanban-live',
+    demo: 'https://kanban-live-ten.vercel.app',
+    live: true,
+    image: '/projects/kanban.png',
   },
   {
     id: 3,
@@ -45,5 +47,13 @@ export const projects: Project[] = [
     demo: 'http://gestor-financiero.runasp.net',
     live: true,
     image: '/projects/gestorFinanciero.png',
+  },
+  {
+    id: 5,
+    title: 'Microservices in C#/.NET',
+    desc: 'Conjunto de microservicios en .NET con comunicación asíncrona, contenedores Docker y despliegue automatizado.',
+    tech: ['C#', '.NET', 'Docker', 'RabbitMQ'],
+    github: '',
+    demo: '',
   },
 ]
