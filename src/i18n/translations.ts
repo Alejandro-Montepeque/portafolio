@@ -294,7 +294,7 @@ export const translations = {
     contact: {
       title: 'Contact',
       kicker: "Let's talk",
-      subtitle: 'Got an idea or an opening? I would love to hear from you.',
+      subtitle: 'Got an idea or an open position? I would be excited to hear it from you',
       formName: 'Name',
       formEmail: 'Email',
       formMessage: 'Message',
@@ -302,7 +302,7 @@ export const translations = {
       formSending: 'Sending...',
       formSuccess: 'Message ready! Your email client will open.',
       formError: 'Please review the highlighted fields.',
-      directLabel: 'Or reach me directly',
+      directLabel: 'Or contact me directly via:',
       errors: {
         nameRequired: 'Name is required.',
         nameMin: 'Name must be at least 2 characters.',
