@@ -176,7 +176,7 @@ export const translations = {
       name: 'Alejandro Montepeque',
       role: 'Software Engineer · Full Stack',
       tagline:
-        '3+ years building scalable, maintainable web apps. I work primarily with Vue, TypeScript and Node.js, managing state with Pinia and authentication with JWT.',
+        '3+ years building scalable, maintainable web apps. I work mainly with Vue, TypeScript and Node.js, managing state with Pinia and authentication with JWT.',
       ctaPrimary: 'See my projects',
       ctaSecondary: 'Contact me',
       scrollHint: 'Scroll for more',
@@ -184,7 +184,7 @@ export const translations = {
     about: {
       title: 'About me',
       kicker: 'Who I am',
-      p1: 'Full Stack developer with 3+ years of experience in frontend and backend. I work primarily with Vue, TypeScript and Node.js; state management with Pinia and authentication with JWT and refresh tokens.',
+      p1: 'Full Stack developer with 3+ years of experience in frontend and backend. I work mainly with Vue, TypeScript and Node.js; state management with Pinia and authentication with JWT and refresh tokens.',
       p2: 'I focus on building scalable and maintainable web applications, with clean REST APIs, responsive UI/UX interfaces and well-modeled databases (SQL and NoSQL).',
       p3: 'I also have experience with NestJS, Python, PHP/Laravel, C#, Java, React, AI agent development with Google ADK and Gemini, Docker and deployments on Vercel and Google Cloud.',
       stats: [

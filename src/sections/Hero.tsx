@@ -34,8 +34,7 @@ export default function Hero() {
             transition={{ delay: 0.25 }}
             className="mt-3 text-xl md:text-2xl text-ink-muted font-light"
           >
-            <span className="font-mono text-accent-cyan">&lt;</span>{' '}
-            {t.hero.role}{' '}
+            <span className="font-mono text-accent-cyan">&lt;</span> {t.hero.role}{' '}
             <span className="font-mono text-accent-cyan">/&gt;</span>
           </motion.p>
 
@@ -95,18 +94,18 @@ export default function Hero() {
             </a>
           </motion.div>
         </div>
-
-        <motion.a
-          href="#about"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1, y: [0, 8, 0] }}
-          transition={{ delay: 1.2, duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-          className="absolute left-1/2 -translate-x-1/2 bottom-6 text-ink-muted text-xs flex flex-col items-center gap-1 hover:text-accent-glow transition"
-        >
-          <span className="font-mono">{t.hero.scrollHint}</span>
-          <FiArrowDown className="w-4 h-4" />
-        </motion.a>
       </div>
+
+      <motion.a
+        href="#about"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1, y: [0, 8, 0] }}
+        transition={{ delay: 1.2, duration: 2, repeat: Infinity, ease: 'easeInOut' }}
+        className="absolute inset-x-0 bottom-6 mx-auto w-fit text-ink-muted text-xs flex flex-col items-center gap-1 hover:text-accent-glow transition"
+      >
+        <span className="font-mono">{t.hero.scrollHint}</span>
+        <FiArrowDown className="w-4 h-4" />
+      </motion.a>
     </section>
   )
 }
