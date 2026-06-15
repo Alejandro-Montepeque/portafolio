@@ -58,12 +58,12 @@ export const projects: Project[] = [
     live: true,
     image: '/projects/gestorFinanciero.png',
   },
-  {
-    id: 5,
-    title: 'Microservices in C#/.NET',
-    desc: 'Conjunto de microservicios en .NET con comunicación asíncrona, contenedores Docker y despliegue automatizado.',
-    tech: ['C#', '.NET', 'Docker', 'RabbitMQ'],
-    github: '',
-    demo: '',
-  },
+  // {
+  //   id: 5,
+  //   title: 'Microservices in C#/.NET',
+  //   desc: 'Conjunto de microservicios en .NET con comunicación asíncrona, contenedores Docker y despliegue automatizado.',
+  //   tech: ['C#', '.NET', 'Docker', 'RabbitMQ'],
+  //   github: '',
+  //   demo: '',
+  // },
 ]
