@@ -209,7 +209,7 @@ export const translations = {
     projects: {
       title: 'Projects',
       kicker: 'My work',
-      subtitle: 'A selection of projects I am preparing to showcase',
+      subtitle: 'View a selection of my most recents and relevant projects',
       comingSoon: 'Coming soon',
       live: 'Live',
       placeholderTitle: 'Project',
