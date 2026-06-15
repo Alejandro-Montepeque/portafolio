@@ -196,7 +196,7 @@ export const translations = {
     skills: {
       title: 'Technologies',
       kicker: 'My stack',
-      subtitle: 'Tools I work with every day',
+      subtitle: 'Tools I manage on my daily basis',
       categories: {
         frontend: 'Frontend',
         backend: 'Backend',
